@@ -1,0 +1,17 @@
+{
+  "fallback": null,
+  "ice": {
+    "stun": [
+      "stun:stun.cloudflare.com:3478",
+      "stun:stun.l.google.com:19302"
+    ]
+  },
+  "notice": null,
+  "protocol": 1,
+  "signal": {
+    "createRoomUrl": "https://chess-signal.pad01g.workers.dev/api/room",
+    "mode": "worker",
+    "statusUrl": "https://chess-signal.pad01g.workers.dev/status",
+    "url": "wss://chess-signal.pad01g.workers.dev/ws"
+  }
+}

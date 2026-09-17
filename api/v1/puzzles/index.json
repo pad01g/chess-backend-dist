@@ -1,0 +1,70 @@
+{
+  "puzzles": [
+    {
+      "difficulty": 1,
+      "fen": "6k1/5ppp/8/8/8/8/8/R5K1 w - - 0 1",
+      "hint": "相手のキングは自分のポーンで逃げ道を塞がれている。",
+      "id": "back-rank-1",
+      "name": "バックランク・メイト",
+      "sideToMove": "white",
+      "solution": [
+        "a1a8"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "fen": "6rk/6pp/8/6N1/8/8/8/6K1 w - - 0 1",
+      "hint": "ナイトだけが跳び越えられる。",
+      "id": "smothered-1",
+      "name": "窒息メイトの基本形",
+      "sideToMove": "white",
+      "solution": [
+        "g5f7"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "fen": "r3k3/8/8/4N3/8/8/8/4K3 w - - 0 1",
+      "hint": "キングとルークを同時に狙える地点を探す。",
+      "id": "fork-1",
+      "name": "ナイトのフォーク",
+      "sideToMove": "white",
+      "solution": [
+        "e5c6"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "fen": "4k3/8/8/8/8/4n3/8/3QK3 w - - 0 1",
+      "hint": "ナイトはキングの前に立っている。",
+      "id": "pin-1",
+      "name": "ピンを突く",
+      "sideToMove": "white",
+      "solution": [
+        "d1d8"
+      ]
+    },
+    {
+      "difficulty": 2,
+      "fen": "8/P7/8/1R6/8/k7/8/K7 w - - 0 1",
+      "hint": "ルークが b 列を塞いでいる。残るのは a 列だけ。",
+      "id": "promotion-1",
+      "name": "昇格して詰ます",
+      "sideToMove": "white",
+      "solution": [
+        "a7a8q"
+      ]
+    },
+    {
+      "difficulty": 1,
+      "fen": "7k/8/8/8/8/8/R7/1R5K w - - 0 1",
+      "hint": "段を一つずつ詰めていく。",
+      "id": "two-rooks-1",
+      "name": "ルーク 2 枚の階段",
+      "sideToMove": "white",
+      "solution": [
+        "a2a8"
+      ]
+    }
+  ]
+}

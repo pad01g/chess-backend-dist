@@ -1,5 +1,10 @@
 {
-  "fallback": null,
+  "fallback": {
+    "createRoomUrl": "https://chess-signal.pad01g.workers.dev/api/room",
+    "mode": "worker",
+    "statusUrl": "https://chess-signal.pad01g.workers.dev/status",
+    "url": "wss://chess-signal.pad01g.workers.dev/ws"
+  },
   "ice": {
     "stun": [
       "stun:stun.cloudflare.com:3478",
@@ -7,11 +12,11 @@
     ]
   },
   "notice": null,
-  "protocol": 1,
+  "protocol": 3,
   "signal": {
-    "createRoomUrl": "https://chess-signal.pad01g.workers.dev/api/room",
-    "mode": "worker",
-    "statusUrl": "https://chess-signal.pad01g.workers.dev/status",
-    "url": "wss://chess-signal.pad01g.workers.dev/ws"
+    "createRoomUrl": "https://gateway.tail2668e8.ts.net/chess/api/room",
+    "mode": "tunnel",
+    "statusUrl": "https://gateway.tail2668e8.ts.net/chess/status",
+    "url": "wss://gateway.tail2668e8.ts.net/chess/ws"
   }
 }
